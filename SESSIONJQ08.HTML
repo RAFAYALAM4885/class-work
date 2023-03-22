@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                var n1 =parseInt($("#text1").val());
+                var n2 =parseInt($("#text2").val());
+                var sum =n1+n2;
+                alert("Login Successfull")
+
+            });
+
+
+       
+
+            
+        $("#text1").focus(function(){
+            $(this).css("background-color","red");
+        });
+        $("#text2").focus(function(){
+            $(this).css("background-color","yellow");
+        });
+    });
+   
+    </script>
+    <input type="text" id="text1">
+    <br>
+    <input type="text" id="text2">
+    <br>
+    <button id="btn">Click Here</button>
+</body>
+</html>

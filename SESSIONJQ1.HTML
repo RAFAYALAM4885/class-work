@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("#b").click(function(){
+             $("h1").hide();   
+            });
+        });
+        $(document).ready(function(){
+            $("#a").click(function(){
+             $("h1").show();   
+            });
+        });
+        $(document).ready(function(){
+            $("#c").click(function(){
+             $("h1").css("color","red");   
+            });
+        });
+        $(document).ready(function(){
+            $("#d").click(function(){
+             $("h1").css("background-color","blue");   
+            });
+        });
+        $(document).ready(function(){
+            $("#e").click(function(){
+             $("h1").css("border","1px solid black");   
+            });
+        });
+        $(document).ready(function(){
+            $("#f").click(function(){
+             $("h2").css("color","green");   
+            });
+        });
+        $(document).ready(function(){
+            $("#f").click(function(){
+             $("h2").css("color","yellow");   
+            });
+        });
+        $(document).ready(function(){
+            $("#f").click(function(){
+             $("h2").css("color","yellow");   
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <h1>RAFAY ALAM</h1>
+    <h2>taha</h2>
+    <h2>uzair</h2>
+    <h2>ashir</h2>
+    <button id="f">same color</button>
+    <button id="b">click</button>
+    <button id="a">click</button>
+    <button id="c">COLOR</button>
+    <button id="d">bg</button>
+    <button id="e">border</button>
+
+</body>
+</html>

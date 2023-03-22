@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY-PAGE</title>
+    <style>
+    .grid-container{
+        display: grid;
+        grid-gap:10px 10px;
+        grid-template-columns: auto auto auto;
+        background-color: rgb(0, 0, 0);
+        padding: 10px;
+        border: 2px solid black;
+    }
+    .grid-item{
+        background-color: rgb(73, 4, 4);
+        border: 3px;
+        color: rgb(155, 145, 2);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(202, 173, 7);
+    color: rgb(1, 9, 9);
+} 
+.nav ul{
+    margin: 15px;
+    margin-left: 800px;
+    font-size: 20px;
+    float: left;
+}
+.nav ul li{
+    display: inline;
+   margin-left: 20px;
+}
+   
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT US</li>
+            <li>CONTACT</li>
+            <li>LOGIN</li>
+        </ul>
+    </div>
+    <img src="RAFAY.jpg" height="300" width="1270">
+    <marquee style="color: rgb(90, 4, 4);"><h1><b> SUAAD SWEET BAKERS AND SNACKS</b></h1></marquee>
+    <div class="grid-container">
+        <div class="grid-item" ><center><img src="bb.png" height="140" width="150" ><p id="demo"></p><button onclick="document.getElementById('demo').innerHTML='1700'">PRICE</button><BUTTON onclick="document.getElementById('demo').innerHTML='CAKE'">DETAIL</BUTTON></center></div>
+        <div class="grid-item"><center><img src="aa.png" height="140" width="150" ><p id="RAFAY"></p><button onclick="document.getElementById('RAFAY').innerHTML='1800'">PRICE</button><BUTTON onclick="document.getElementById('RAFAY').innerHTML='DIL WALI SWEET'">DETAIL</BUTTON></center></div>
+        <div class="grid-item"><center><img src="ii.png" height="140" width="150" ><p id="SHAFAY"></p><button onclick="document.getElementById('SHAFAY').innerHTML='900'">PRICE</button><BUTTON onclick="document.getElementById('SHAFAY').innerHTML='SWEET'">DETAIL</BUTTON></center></div>
+        <div class="grid-item"><center><img src="klk.jpg" height="140" width="150"><p id="DANIYAL"></p><button onclick="document.getElementById('DANIYAL').innerHTML='1000'">PRICE</button><BUTTON onclick="document.getElementById('DANIYAL').innerHTML='ONE BIT PIZZA'">DETAIL</BUTTON></center></div>
+        <div class="grid-item"><center><img src="oo.png" height="140" width="150"><p id="UZAIR"></p><button onclick="document.getElementById('UZAIR').innerHTML='1200'">PRICE</button><BUTTON onclick="document.getElementById('UZAIR').innerHTML='CUP CAKE'">DETAIL</BUTTON></center></div>
+        <div class="grid-item"><center><img src="77.JPG" height="140" width="150"><p id="RYAN"></p><button onclick="document.getElementById('RYAN').innerHTML='800'">PRICE</button><BUTTON onclick="document.getElementById('RYAN').innerHTML='BISCUITS'">DETAIL</BUTTON></center></div>
+    </div>
+    <script>
+        
+        </script>
+</body>
+</html>

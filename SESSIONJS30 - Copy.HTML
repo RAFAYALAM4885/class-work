@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br> <br> <br>
+    <center>
+        <form onsubmit="takenvalue()" class="bf-info">
+        <h1 style="text-align: center;">REGISTRATION FORM</h1><br><br><br>
+        <div class="form-group">
+            <tr>
+                <td><input type="form-control" type="text" name="NAME" placeholder="ENTER YOUR NAME" id="name"></td>
+            </tr>
+        </div>
+        <div class="form-group">
+            <tr>
+                <td><input type="form-control" type="text" name="FATHER NAME" placeholder="FATHER NAME" id="father"></td>
+            </tr>
+        </div>
+        <div class="form-group">
+            <tr>
+                <td><input type="form-control" type="password" name="PASSWORD" placeholder="PASSWORD" id="password"></td>
+            </tr>
+        </div>
+        <div class="form-group">
+            <tr>
+                <td><input type="form-control" type="address" name="ADDRESS" placeholder="ADDRESS" id="address"></td>
+            </tr>
+        </div>
+        <div class="form-group">
+            <tr>
+                <td><input type="form-control" type="email" name="EMAIL" placeholder="EMAIL" id="email"></td>
+            </tr>
+        </div>
+        <div class="form-group">
+            <tr> 
+                <td>
+                    <select class="form-control" id="gender">
+                        <option>SELECT YOUR GENDER</option>
+                        <Option>MALE</Option>
+                        <Option>FEMALE</Option>
+                        <Option>OTHERS</Option>
+                    </select>
+                </td>
+            </tr>
+        </div>
+        <div class="form-group">
+            <tr>
+                <td>
+                    <select class="form-control" id="coures">
+                        <option>SELECT YOUR COURES</option>
+                        <Option>CPISM</Option>
+                        <Option>DISM</Option>
+                        <Option>HDSE I</Option>
+                        <OPtion>HDSE II</OPtion>
+                        <OPtion>ADSE I</OPtion>
+                        <Option>ADSE II</Option>
+                    </select>
+                </td>
+            </tr>
+        </div>
+        <div class="form-group">
+            <tr>
+                <button value="sumit">SUMIT</button>
+            </tr>
+        </div>
+    </form>
+    </center>
+    <script>
+        function takenvalue(){
+            var name=document.getElementById("name").value;
+            var father=document.getElementById("father").value;
+            var password=document.getElementById("password").value;
+            var address=document.getElementById("address").value;
+            var email=document.getElementById("email").value;
+            var gender=document.getElementById("gender").value;
+            var coures=document.getElementById("coures").value;
+            document.write("NAME:"+name+"<br><br>")
+            document.write("FATHER NAME:"+father+"<br><br>")
+            document.write("PASSWORD:"+password+"<br><br>")
+            document.write("ADDRESS:"+address+"<br><br>")
+            document.write("EMAIL:"+email+"<br><br>")
+            document.write("GENDER:"+gender+"<br><br>")
+            document.write("COURES:"+coures+"<br><br>")
+            alert("YOUR DATA IS SUMITED");
+            window.print();
+        }
+    </script>   
+</body>
+</html>

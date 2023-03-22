@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    
+}
+select{
+    height: 50px;
+    width:500px;
+    border-radius: 20px ;
+    background-color: rgb(255, 187, 0);
+}
+.box{
+    padding: 70px;
+   
+}
+h1{
+    text-align: center;
+    background-color: rgb(251, 255, 0);
+}
+.c{
+    text-align: center;
+}
